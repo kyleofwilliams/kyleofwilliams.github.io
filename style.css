@@ -230,7 +230,7 @@ a {
   display: flex;
   flex-flow: nowrap;
   align-items: stretch;
-  min-height: 84vh;
+  min-height: 100vh;
   width: 100%;
   align-content: center;
   padding: 20vh 75px 20vh 112.5px;

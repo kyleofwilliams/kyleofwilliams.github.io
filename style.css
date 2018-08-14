@@ -3,106 +3,106 @@ html {
   box-sizing: border-box;
   font-family: "Roboto Condensed", serif;
   color: #555;
-  font-size: 16px;
+  font-size: 20px;
 }
 @media (min-width: 6.25em) {
-  html {
-    font-size: 17px;
-  }
-}
-@media (min-width: 12.5em) {
-  html {
-    font-size: 18px;
-  }
-}
-@media (min-width: 18.75em) {
   html {
     font-size: 19px;
   }
 }
-@media (min-width: 25em) {
+@media (min-width: 12.5em) {
   html {
     font-size: 20px;
   }
 }
-@media (min-width: 31.25em) {
+@media (min-width: 18.75em) {
   html {
     font-size: 21px;
   }
 }
-@media (min-width: 37.5em) {
+@media (min-width: 25em) {
   html {
     font-size: 22px;
   }
 }
-@media (min-width: 43.75em) {
+@media (min-width: 31.25em) {
   html {
     font-size: 23px;
   }
 }
-@media (min-width: 50em) {
+@media (min-width: 37.5em) {
   html {
     font-size: 24px;
   }
 }
-@media (min-width: 56.25em) {
+@media (min-width: 43.75em) {
   html {
     font-size: 25px;
   }
 }
-@media (min-width: 62.5em) {
+@media (min-width: 50em) {
   html {
     font-size: 26px;
   }
 }
-@media (min-width: 68.75em) {
+@media (min-width: 56.25em) {
   html {
     font-size: 27px;
   }
 }
-@media (min-width: 75em) {
+@media (min-width: 62.5em) {
   html {
     font-size: 28px;
   }
 }
-@media (min-width: 81.25em) {
+@media (min-width: 68.75em) {
   html {
     font-size: 29px;
   }
 }
-@media (min-width: 87.5em) {
+@media (min-width: 75em) {
   html {
     font-size: 30px;
   }
 }
-@media (min-width: 93.75em) {
+@media (min-width: 81.25em) {
   html {
     font-size: 31px;
   }
 }
-@media (min-width: 100em) {
+@media (min-width: 87.5em) {
   html {
     font-size: 32px;
   }
 }
-@media (min-width: 106.25em) {
+@media (min-width: 93.75em) {
   html {
     font-size: 33px;
   }
 }
-@media (min-width: 112.5em) {
+@media (min-width: 100em) {
   html {
     font-size: 34px;
   }
 }
-@media (min-width: 118.75em) {
+@media (min-width: 106.25em) {
   html {
     font-size: 35px;
   }
 }
-@media (min-width: 125em) {
+@media (min-width: 112.5em) {
   html {
     font-size: 36px;
+  }
+}
+@media (min-width: 118.75em) {
+  html {
+    font-size: 37px;
+  }
+}
+@media (min-width: 125em) {
+  html {
+    font-size: 38px;
   }
 }
 
@@ -117,7 +117,7 @@ a {
 }
 
 /**
- * The fixed Side 
+ * The fixed Side
  */
 .side {
   position: fixed;
@@ -125,8 +125,8 @@ a {
   left: 0;
   bottom: 0;
   z-index: 1000;
-  width: 75px;
-  border-right: 1px dashed rgba(0, 0, 0, 0.3);
+  width: 7vh;
+  border-right: 3px dashed rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.8);
   font-family: "Roboto Condensed", serif;
   text-transform: uppercase;
@@ -153,20 +153,20 @@ a {
   position: absolute;
   left: 0;
   transform: rotate(-90deg) perspective(1px);
-  transform-origin: 75px 75px;
-  height: 75px;
-  line-height: 75px;
+  transform-origin: 7vh 7vh;
+  height: 7vh;
+  line-height: 7vh;
   white-space: nowrap;
-  word-spacing: 0.5rem;
+  word-spacing: 0.7rem;
 }
 .side .top {
-  top: 37.5px;
+  top: 7vh;
   text-align: right;
   color: black;
 }
 .side .bottom {
   top: auto;
-  bottom: 112.5px;
+  bottom: 10.5vh;
 }
 .side .bottom:hover a {
   color: rgba(0, 0, 0, 0.2);
@@ -200,7 +200,7 @@ a {
   padding: 20px 0;
   font-family: "Roboto Black", sans-serif;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1.4px;
   color: inherit;
   transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
@@ -230,10 +230,10 @@ a {
   display: flex;
   flex-flow: nowrap;
   align-items: stretch;
-  min-height: 100vh;
+  min-height: 95vh;
   width: 100%;
   align-content: center;
-  padding: 20vh 75px 20vh 112.5px;
+  padding: 20vh 7vh 20vh 10.5vh;
 }
 .section svg {
   position: absolute;

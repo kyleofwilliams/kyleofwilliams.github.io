@@ -423,7 +423,7 @@ p a:hover {
 }
 
 .skillsntech {
-  padding-top: 35px;
+  padding-top: 50px;
   display: grid;
   grid-gap: 25px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
